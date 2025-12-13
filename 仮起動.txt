@@ -1,0 +1,1 @@
+powershellを使用cd "C:\Users\s2311603\Desktop\部活サイト"npm run dev
