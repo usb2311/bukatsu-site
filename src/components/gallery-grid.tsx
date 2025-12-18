@@ -1,14 +1,15 @@
-import React from 'react';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 interface GalleryImage {
-  id: string;
-  url: string;
-  caption: string;
-  href?: string;
+  id: string
+  url: string
+  caption: string
+  href?: string
 }
 
 interface GalleryGridProps {
-  images: GalleryImage[];
+  images: GalleryImage[]
 }
 
 export const GalleryGrid: React.FC<GalleryGridProps> = ({ images }) => {
@@ -25,7 +26,9 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ images }) => {
               />
               <div className="absolute inset-0 flex items-end">
                 <div className="w-full bg-gradient-to-t from-black/60 to-transparent p-4">
-                  <p className="text-white text-sm font-semibold truncate">{image.caption}</p>
+                  <p className="text-white text-sm font-semibold truncate">
+                    {image.caption}
+                  </p>
                 </div>
               </div>
             </div>
@@ -36,15 +39,13 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ images }) => {
         )
 
         return image.href ? (
-          <a
+          <Link
             key={image.id}
-            href={image.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="no-underline"
+            to={image.href}
+            className="no-underline block"
           >
             {Card}
-          </a>
+          </Link>
         ) : (
           <div key={image.id}>{Card}</div>
         )
