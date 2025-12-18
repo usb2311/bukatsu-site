@@ -42,7 +42,7 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ images }) => {
           <Link
             key={image.id}
             to={image.href}
-            className="no-underline block"
+            className="no-underline"
           >
             {Card}
           </Link>
