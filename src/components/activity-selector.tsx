@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { SectionHeader } from './section-header'
 
 export interface SelectorItem {
@@ -29,9 +30,9 @@ export const ActivitySelector: React.FC<{ items?: SelectorItem[] }> = ({
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {items.map((item) => (
-          <a
+          <Link
             key={item.id}
-            href={item.href}
+            to={item.href}
             className="block bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow no-underline"
           >
             <h3 className="text-lg font-semibold mb-2 text-gray-900">
@@ -41,7 +42,7 @@ export const ActivitySelector: React.FC<{ items?: SelectorItem[] }> = ({
               {item.description}
             </p>
             <div className="text-sm text-blue-600">詳しく見る →</div>
-          </a>
+          </Link>
         ))}
       </div>
     </section>
