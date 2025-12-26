@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 import Programming from './pages/activities/programming'
-import HokutosaiTennzi from './pages/activities/hokutosai_tennzi'
+import HokutosaiTennzi from './pages/activities/hokutosai-tennzi'
 import Model3D from './pages/activities/3d-modeling'
 import Design from './pages/activities/design'
 import Meeting from './pages/activities/meeting'
