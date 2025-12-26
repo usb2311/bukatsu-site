@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 import Programming from './pages/activities/programming'
-import VideoEditing from './pages/activities/video-editing'
+import VideoEditing from './pages/activities/hokutosai_tennzi'
 import Model3D from './pages/activities/3d-modeling'
 import Design from './pages/activities/design'
 import Meeting from './pages/activities/meeting'
