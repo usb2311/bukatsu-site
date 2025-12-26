@@ -5,7 +5,7 @@ import App from './App'
 import './index.css'
 
 import Programming from './pages/activities/programming'
-import VideoEditing from './pages/activities/hokutosai_tennzi'
+import HokutosaiTennzi from './pages/activities/hokutosai_tennzi'
 import Model3D from './pages/activities/3d-modeling'
 import Design from './pages/activities/design'
 import Meeting from './pages/activities/meeting'
@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/activities/programming" element={<Programming />} />
-        <Route path="/activities/video-editing" element={<VideoEditing />} />
+        <Route path="/activities/hokutosai-tennzi" element={<HokutosaiTennzi />} />
         <Route path="/activities/3d-modeling" element={<Model3D />} />
         <Route path="/activities/design" element={<Design />} />
         <Route path="/activities/meeting" element={<Meeting />} />
