@@ -1,1 +1,1 @@
-powershellを使用cd "C:\Users\s2311603\Desktop\部活サイト"npm run dev
+powershellを使用cd "C:\Users\s2311603\Desktop\部活サイト"npm run dev更新cd "C:\Users\s2311603\Desktop\部活サイト"git add src/pages/activities/meeting.tsxgit commit -m "embed meeting video"git push<section>  <h2 className="text-2xl font-semibold mb-3">     ミーティング録画  </h2>  <div className="aspect-video">    <iframe      src="ここにStreamの埋め込みURL"      className="w-full h-full rounded-lg"      allowFullScreen    ></iframe>  </div></section>
