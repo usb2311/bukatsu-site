@@ -91,7 +91,7 @@ export default function Meeting() {
 
   <div className="aspect-video">
     <iframe
-      src="https://kosenjp.sharepoint.com/:v:/r/sites/msteams_fb6309/Shared%20Documents/General/2025_1%E5%B9%B4%E7%94%9F%E5%90%91%E3%81%91%E8%AC%9B%E5%BA%A7(%E5%85%A83%E5%9B%9E)/VideoPro_20250409_164844.mp4?csf=1&web=1&e=YNQb3U"
+      src="https://kosenjp.sharepoint.com/:f:/r/sites/msteams_fb6309/Shared%20Documents/General/2025_1%E5%B9%B4%E7%94%9F%E5%90%91%E3%81%91%E8%AC%9B%E5%BA%A7(%E5%85%A83%E5%9B%9E)?csf=1&web=1&e=g5bG5s"
       className="w-full h-full rounded-lg"
       allowFullScreen
     ></iframe>
