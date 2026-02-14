@@ -85,19 +85,24 @@ export default function Meeting() {
 
           {/* 動画セクション（中心） */}
           <section>
-  <h2 className="text-2xl font-semibold mb-3">
-    🎥 ミーティング録画
-  </h2>
+            <h2 className="text-2xl font-semibold mb-3">
+              🎥 ミーティング録画（中心資料）
+            </h2>
 
-  <div className="aspect-video">
-    <iframe
-      src="https://kosenjp.sharepoint.com/:v:/s/msteams_fb6309/IQBnxYGmnjUZQr9xZbKiC8Y9AU2oRfJB8J-mtSIU8gmodeY?e=cTfKXC"
-      className="w-full h-full rounded-lg"
-      allowFullScreen
-    ></iframe>
-  </div>
-</section>
+            <p className="text-gray-700 mb-4">
+              実際の会話や操作の様子を録画した動画です。
+              ChatPを使いながらコード修正や議論を行う様子をご覧いただけます。
+            </p>
 
+            <a
+              href="https://kosenjp.sharepoint.com/sites/msteams_fb6309/_layouts/15/stream.aspx?id=%2Fsites%2Fmsteams%5Ffb6309%2FShared%20Documents%2FGeneral%2F2025%5F1%E5%B9%B4%E7%94%9F%E5%90%91%E3%81%91%E8%AC%9B%E5%BA%A7%28%E5%85%A83%E5%9B%9E%29%2FVideoPro%5F20250409%5F164844%2Emp4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline"
+            >
+              ミーティング録画を見る（Stream）
+            </a>
+          </section>
 
         </div>
       </div>
