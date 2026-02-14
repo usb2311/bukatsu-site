@@ -12,7 +12,7 @@ export default function Meeting() {
 
           {/* タイトル */}
           <h1 className="text-3xl font-bold mb-4">
-            ChatP 活用ミーティング記録
+            ChatGTP 活用ミーティング記録
           </h1>
 
           {/* 概要 */}
