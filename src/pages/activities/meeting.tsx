@@ -25,7 +25,7 @@ export default function Meeting() {
           {/* セクション① */}
           <section className="mb-8">
             <h2 className="text-2xl font-semibold mb-3">
-              ① ChatPに何をしてもらったか
+              ① ChatGTPに何をしてもらったか
             </h2>
 
             <ul className="list-disc pl-6 text-gray-700 space-y-2">
