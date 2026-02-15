@@ -38,23 +38,27 @@ export default function Study() {
 
           {/* 動画 */}
           
-<section>
-  <h2 className="text-2xl font-semibold mb-4">
-    🎥 撮影した動画（ウェブ開発勉強会）
-  </h2>
+<section className="mb-8">
+            <h2 className="text-2xl font-semibold mb-2">
+              撮影した動画（ウェブ開発勉強会）
+            </h2>
+            <p className="text-gray-700 mb-4">
+              以下のリンクから、当日の勉強会の様子を撮影した動画をご覧いただけます。
+            </p>
 
-  <p className="text-gray-700 mb-4">
-    実際の会話や操作の様子を録画した動画です。
-  </p>
-
-  <div className="aspect-video rounded-lg overflow-hidden shadow-md">
-    <iframe
-      src="https://kosenjp-my.sharepoint.com/personal/i2421443_toyama_kosen-ac_jp/_layouts/15/stream.aspx?id=%2Fpersonal%2Fi2421443%5Ftoyama%5Fkosen%2Dac%5Fjp%2FDocuments%2FWeb%E9%96%8B%E7%99%BA%E8%AC%9B%E5%BA%A72025%2FWeb%E9%96%8B%E7%99%BA%E8%AC%9B%E5%BA%A7%E7%AC%AC%EF%BC%91%E9%80%B1%EF%BC%9AWeb%E9%96%8B%E7%99%BA%E3%80%81HTML%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ece85ecc5%2D2801%2D443d%2Dac87%2Dc647f1828381"
-      className="w-full h-full"
-      allowFullScreen
-    ></iframe>
-  </div>
-</section>
+            <ul className="list-disc pl-6 text-blue-700">
+              <li>
+                <a
+                  href="https://kosenjp-my.sharepoint.com/personal/i2421443_toyama_kosen-ac_jp/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fi2421443%5Ftoyama%5Fkosen%2Dac%5Fjp%2FDocuments%2FWeb%E9%96%8B%E7%99%BA%E8%AC%9B%E5%BA%A72025&ga=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline"
+                >
+                  ウェブ開発勉強会 2025 動画（OneDrive）
+                </a>
+              </li>
+            </ul>
+          </section>
           {/* 参考リンク */}
           <section>
             <h2 className="text-2xl font-semibold mb-2">
