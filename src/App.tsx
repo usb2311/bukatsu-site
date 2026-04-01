@@ -204,7 +204,7 @@ const galleryImages = [
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50">//
       <Header />
       {/* Hero Section */}
       <div className="relative h-[400px] md:h-[500px] overflow-hidden">
@@ -228,7 +228,7 @@ export default function App() {
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Club Info */}
-        <section className="bg-white rounded-lg shadow-md p-8 mb-12">
+        <section id="overview" className="bg-white rounded-lg shadow-md p-8 mb-12">
           <SectionHeader title="部活動概要" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
@@ -277,7 +277,7 @@ export default function App() {
         </section>
 
         {/* Activities */}
-        <section className="mb-12">
+        <section id="activities" className="mb-12">
           <SectionHeader 
             title="主な活動分野" 
             subtitle="興味のある分野から始められます。複数の分野に挑戦することも可能です。"
@@ -295,7 +295,7 @@ export default function App() {
         </section>
 
         {/* Achievements */}
-        <section className="bg-white rounded-lg shadow-md p-8 mb-12">
+        <section id="achievements" className="bg-white rounded-lg shadow-md p-8 mb-12">
           <SectionHeader title="活動実績" />
           <div className="space-y-6">
             {achievements.map((achievement) => (
@@ -318,13 +318,13 @@ export default function App() {
         </section>
 
         {/* Gallery */}
-        <section className="mb-12">
+        <section id="gallery" className="mb-12">
           <SectionHeader title="活動の様子" subtitle="日々の活動やイベントの様子をご紹介します" />
           <GalleryGrid images={galleryImages} />
         </section>
 
         {/* Programming Languages */}
-        <section className="mb-12">
+        <section id="languages" className="mb-12">
           <SectionHeader 
             title="学習言語" 
             subtitle="3つの主要プログラミング言語を習得できます"
@@ -362,7 +362,7 @@ export default function App() {
         </section>
 
         {/* Message */}
-        <section className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg p-8 md:p-12 text-white">
+        <section id="message" className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg shadow-lg p-8 md:p-12 text-white">
           <h2 className="text-white mb-6 text-center">部長からのメッセージ</h2>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg mb-4">
