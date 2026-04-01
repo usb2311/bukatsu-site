@@ -205,6 +205,7 @@ const galleryImages = [
 export default function App() {
   return (
     <div className="min-h-screen bg-gray-50">
+      <Header />
       {/* Hero Section */}
       <div className="relative h-[400px] md:h-[500px] overflow-hidden">
         <ImageWithFallback
