@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export const CodeExample = ({ language, title, code, description }) => {
+    return (_jsxs("div", { className: "bg-white rounded-lg shadow-md overflow-hidden", children: [_jsx("div", { className: "bg-gray-100 p-4 border-b", children: _jsxs("div", { className: "flex items-center justify-between mb-2", children: [_jsx("span", { className: "text-sm font-semibold text-gray-600", children: language }), _jsx("span", { className: "text-xs bg-blue-600 text-white px-2 py-1 rounded", children: title })] }) }), _jsxs("div", { className: "p-6", children: [_jsx("pre", { className: "bg-gray-900 text-gray-100 p-4 rounded overflow-x-auto mb-4", children: _jsx("code", { className: "text-sm", children: code }) }), _jsx("p", { className: "text-gray-700", children: description })] })] }));
+};

@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export function LanguageCard({ name, description, features, color }) {
+    return (_jsxs("div", { className: "bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6", children: [_jsx("div", { className: `inline-block px-4 py-2 rounded-lg mb-4 ${color}`, children: _jsx("h3", { className: "text-white", children: name }) }), _jsx("p", { className: "text-gray-700 mb-4", children: description }), _jsxs("div", { children: [_jsx("p", { className: "text-sm mb-2", children: "\u5B66\u7FD2\u5185\u5BB9\uFF1A" }), _jsx("ul", { className: "space-y-1", children: features.map((feature, index) => (_jsxs("li", { className: "text-gray-600 text-sm flex items-start", children: [_jsx("span", { className: "text-blue-600 mr-2", children: "\u2713" }), feature] }, index))) })] })] }));
+}

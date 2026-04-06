@@ -1,0 +1,14 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import App from './App';
+import './index.css';
+import Layout from './layout';
+import Programming from './pages/activities/programming';
+import HokutosaiTennzi from './pages/activities/hokutosai-tennzi';
+import Model3D from './pages/activities/3d-modeling';
+import Design from './pages/activities/design';
+import Meeting from './pages/activities/meeting';
+import Study from './pages/activities/study';
+ReactDOM.createRoot(document.getElementById('root')).render(_jsx(React.StrictMode, { children: _jsx(BrowserRouter, { children: _jsx(Layout, { children: _jsxs(Routes, { children: [_jsx(Route, { path: "/", element: _jsx(App, {}) }), _jsx(Route, { path: "/activities/programming", element: _jsx(Programming, {}) }), _jsx(Route, { path: "/activities/hokutosai-tennzi", element: _jsx(HokutosaiTennzi, {}) }), _jsx(Route, { path: "/activities/3d-modeling", element: _jsx(Model3D, {}) }), _jsx(Route, { path: "/activities/design", element: _jsx(Design, {}) }), _jsx(Route, { path: "/activities/meeting", element: _jsx(Meeting, {}) }), _jsx(Route, { path: "/activities/study", element: _jsx(Study, {}) })] }) }) }) }));
